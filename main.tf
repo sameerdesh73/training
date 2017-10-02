@@ -58,7 +58,7 @@ resource "aws_instance" "web" {
   subnet_id              = "subnet-a2a469e9"
   vpc_security_group_ids = ["sg-2788a154"]
 
-  count = "2"
+  count = "3"
 
   tags {
     "Identity" = "NWI-vault-panda"

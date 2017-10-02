@@ -37,7 +37,7 @@ variable "aws_region" {
 # variable "public_ip" {}
 
 variable "count" {
-  default = 2
+  default = 3
 }
 
 provider "aws" {
